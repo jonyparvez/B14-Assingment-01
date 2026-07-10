@@ -2,6 +2,16 @@
     margin: 0px;
 }
 
+
+
+/* navigation start */
+
+.navigation-bg{
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+}
+
 .navigation-container{
     max-width: 1280px;
     margin: 0px auto;
@@ -11,7 +21,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 24px;
+    padding: 20px 0px 20px 0px;
 }
 
 .navigation-ul-list ul{
@@ -40,3 +50,53 @@ nav{
     cursor: pointer;
     background-color: #1D4ED8;
 }
+
+/* navigation end */
+
+/* ---------------------------------------------------------------- */
+
+/* header banner section start */
+
+
+.banner-img{
+   
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.852) , rgba(0, 0, 0, 0.326));
+}
+
+.banner-img img{
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+.banner-content-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner-content{
+    padding: 250px 0px 82px 0px;
+}
+
+.banner-content h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+.banner-content p{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding-top: 24px;
+
+}
+.banner-btn{
+    text-align: center;
+    margin-top: 250px;
+}
+
+/* header banner section end */
+
+/* ---------------------------------------------------------------- */
+
+/* Meet the Speakers section start */
