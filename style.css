@@ -8,6 +8,7 @@
 
 .navigation-bg{
     background-color: #ffffff;
+    border-bottom: 2px solid #E5E7EB;
     position: fixed;
     width: 100%;
 }
@@ -100,3 +101,220 @@ nav{
 /* ---------------------------------------------------------------- */
 
 /* Meet the Speakers section start */
+
+.Meet-the-Speakers{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section-title{
+    margin-top: 80px;
+    margin-bottom: 56px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+
+}
+
+.speakers-all{
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
+}
+
+.speakers img{
+    width: 99.9%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.speaker-content{
+    padding: 24px;
+}
+
+.speaker-content h6{
+    font-size: 12px;
+    font-weight: bold;
+    color: #2563EB;
+    margin-bottom: 10px;
+
+}
+
+.speaker-content h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 10px;
+
+}
+
+.speaker-content p{
+    font-size: 14px;
+    color: #575757;
+
+}
+
+/* Meet the Speakers section end */
+
+/* ---------------------------------------------------------------- */
+
+/* Secure Your Spot section start */
+
+.SecureYourSpot{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.SecureYourSpot-title{
+    padding: 170px 0px 50px 0px;
+}
+.SecureYourSpot-title h1{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.SecureYourSpot-title p{
+    text-align: center;
+    font-size: 16px;
+    color: #575757;
+}
+
+
+.SecureDiv-container{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.standard-content-ul{
+    display: inline-block;
+    margin-left: -25px;
+    padding-top: 10px;
+}
+
+.standard-content-ul li{
+    color: #2563EB;
+    margin-bottom: 20px;
+}
+
+.standard-li-text{
+    color: #888888;
+    font-size: 14px;
+}
+
+.standard-content{
+    width: 250px;
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.standard-content h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #888888;
+    padding-bottom: 10px;
+}
+
+.standard-content h1{
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding-bottom: 10px;
+}
+
+.standard-content p{
+    font-size: 14px;
+    color: #888888;
+    padding-bottom: 10px;
+}
+
+.standard-btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.standard-btn{
+    width: 188px;
+    height: 48px;
+    padding: 12px 12px;
+    border-radius: 10px;
+    color: #1D4ED8;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid #1D4ED8;
+    background-color: white;
+    margin-top: 32px;
+}
+
+
+
+/* pro pricing div*/
+
+.pro-content{
+    background-color: #1b2a3a;
+    width: 250px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.pro-content h6{
+    font-size: 14px;
+    font-weight: bold;
+    color: #93C5FD;
+    padding-bottom: 10px;
+}
+
+.pro-content h1{
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.pro-content p{
+    font-size: 14px;
+    color: #888888;
+    padding-bottom: 10px;
+}
+
+.standard-li-pro-text{
+    color: #ffffffca;
+    font-size: 14px;
+}
+
+.pro-btn{
+    width: 188px;
+    height: 48px;
+    padding: 12px 12px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #1D4ED8;
+    margin-top: 32px;
+}
+
+/* Secure Your Spot section end */
+
+/* ---------------------------------------------------------------- */
+
+/* Something Missing-section start */
+
+
+.SomethingMissing-section{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.SomethingMissing-section h1{
+    margin-top: 130px;
+    text-align: center;
+}
