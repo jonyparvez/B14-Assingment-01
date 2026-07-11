@@ -67,24 +67,22 @@ nav{
 
 /* header banner section start */
 
-
 .banner-img{
-   
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.852) , rgba(0, 0, 0, 0.326));
+    background-image:  
+    linear-gradient(to right, rgba(0, 0, 0, 0.852) , rgba(0, 0, 0, 0.326)),
+    url(assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.banner-img img{
-    width: 100%;
-    position: absolute;
-    z-index: -2;
-}
 .banner-content-container{
     max-width: 1280px;
     margin: 0 auto;
 }
 
 .banner-content{
-    padding: 250px 0px 82px 0px;
+    padding: 250px 0px 80px 0px;
 }
 
 .banner-content h1{
@@ -273,6 +271,10 @@ nav{
     border-radius: 12px;
 }
 
+.pro-content-div:hover {
+    background-image: linear-gradient(to right, #1D4ED8 , #d81d6e);
+}
+
 .pro-content h6{
     font-size: 14px;
     font-weight: bold;
@@ -289,8 +291,12 @@ nav{
 
 .pro-content p{
     font-size: 14px;
-    color: #888888;
+    color: #ffffff;
     padding-bottom: 10px;
+}
+
+.li-color li{
+    color: white;
 }
 
 .standard-li-pro-text{
@@ -538,6 +544,13 @@ nav{
     background-color: rgba(255, 255, 255, 0.185);
     border-radius: 8px;
     color: white;
+}
+
+.Copyright{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 /* footer end */
